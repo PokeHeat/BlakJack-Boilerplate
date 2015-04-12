@@ -10,7 +10,7 @@
  */
 
 var config = {
-    name: 'Blak Bot',
+    name: 'Moon Bot',
     userid: function () {
         return toId(this.name);
     },
@@ -350,7 +350,7 @@ var commands = {
 
             if (target === 'creaturephil') message = 'An experienced **coder** for pokemon showdown. He has coded for over 5 servers such as kill the noise, moxie, aerdeith, nova, etc. Please follow him on github: https://github.com/CreaturePhil';
             if (target === config.userid()) message = 'That\'s me.';
-            if (target === 'zarel') message = 'Pokemon Showdown Creator';
+            if (target === 'Pokemoon Jake') message = 'Pokemoon Forum Creator';
             if (target === 'stevoduhhero') message = 'STEVO DUH GOD DAMN HERO! Respect him!';
             if (target === 'rickycocaine') message = 'RICKY COCAAAAAAAINE﻿';
             if (target === 'blakjack') message = 'I\'m better than you and you know it! BITCH!';
